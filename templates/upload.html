@@ -1,0 +1,17 @@
+<html>   
+<head>   
+    <title>upload the file : GFG</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">  
+</head>   
+<body>   
+<h1>Please upload your TSV file here.</h1>
+
+<div id='form'>
+    <form action = "/success" method = "post" enctype="multipart/form-data">   
+        <input type="file" name="file" />   
+        <input type = "submit" value="Upload">   
+    </form>  
+</div> 
+<p><a href=" {{ url_for('index')}}",>Return Home</a></li></p>
+</body>   
+</html>
