@@ -1,4 +1,4 @@
 # python-docker
 
-A simple Python app for [Docker's Python Language Guide](https://docs.docker.com/language/python).
+A simple Python app for creating a shareable book displays script.
 Based on Craig's guidelines. 
